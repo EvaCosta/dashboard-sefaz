@@ -12,6 +12,6 @@ export const buscarAuditoria = () => {
     // Simulando 1.5 segundos de delay da SEFAZ
     setTimeout(() => {
       resolve(dadosBrutos);
-    }, 15000);
+    }, 1500);
   });
 };
